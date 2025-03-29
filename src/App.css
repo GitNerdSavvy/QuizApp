@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+.app {
+  background-image: url("./assets/bg.avif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 10px;
+  color: rgb(0, 166, 255);
+  font-weight: bold;
+}
+
+.start {
+  padding: 15px 20px;
+  font-weight: bold;
+  color: antiquewhite;
+  background-color: rgb(244, 60, 60);
+  border-radius: 10px;
+  border-color: black;
+}
+.start:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: bolder;
+  border-color: white;
+}
+
+.score {
+  color: rgb(34, 111, 113);
+  font-size: x-large;
+  font-weight: bold;
+}
+.loader{
+    color: orange;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.next{
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: x-large;
+    background-color: orange;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.next:hover{
+    cursor: pointer;
+    color: black;
+    font-size: x-large;
+    border: 3px solid white;
+}
+.QuestionCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    background-color: rgb(237, 172, 51);
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+}
+.number{
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(35, 31, 31);
+}
+
+.questionTitle{
+    font-style: italic;
+    font-family: serif;
+}
+
+.ansCard{
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.ansButton{
+    border: none;
+}
+.ans:hover{
+    cursor: pointer;
+    color: white;
+}
+.ans{
+    background-color: chocolate;
+    color: black;
+    font-family: cursive;
+    border: none;
+}
